@@ -1,0 +1,28 @@
+.userlist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.usercard {
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #f7f9fc;
+  transition: 0.3s;
+}
+
+.usercard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.userlink {
+  text-decoration: none;
+  color: #4f8cff;
+  font-weight: 600;
+}
+
+.userlink:hover {
+  text-decoration: underline;
+}
